@@ -1,6 +1,6 @@
 return {
     -- Ссылка на txt файл с ключами (ЗАМЕНИ НА СВОЮ)
-    KeysURL = "https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/keys.txt",
+    KeysURL = "https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/refs/heads/main/key.txt",
     
     -- Ссылки на библиотеку Obsidian
     LibraryURL = "https://raw.githubusercontent.com/deividcomsono/Obsidian/main/Library.lua",
