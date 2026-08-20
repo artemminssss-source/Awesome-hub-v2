@@ -1,5 +1,5 @@
 -- Точка входа
-local Repo = "https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/"
+local Repo = "https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/refs/heads/main/main.lua"
 
 -- Загружаем конфиг
 local Config = loadstring(game:HttpGet(Repo .. "Config.lua"))()
@@ -13,4 +13,4 @@ KeySystem.Start(Config.DropBoxURL, function()
     
     -- Если ключ верный, загружаем интерфейс
     loadstring(game:HttpGet(Repo .. "Hub/Interface.lua"))()
-end)
+  
