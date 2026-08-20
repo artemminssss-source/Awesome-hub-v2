@@ -1,7 +1,7 @@
 -- Hub/Interface.lua
 -- Полный интерфейс для AWESOME HUB
 
-local Config = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Config.lua"))()
+local Config = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/refs/heads/main/config.lua"))()
 
 -- Загрузка библиотеки
 local Library = loadstring(game:HttpGet(Config.LibraryURL))()
@@ -9,11 +9,11 @@ local ThemeManager = loadstring(game:HttpGet(Config.ThemeURL))()
 local SaveManager = loadstring(game:HttpGet(Config.SaveURL))()
 
 -- Загрузка модулей логики
-local AimBot = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Hub/AimBot.lua"))()
-local SalientAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Hub/SalientAim.lua"))()
-local Visuals = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Hub/Visuals.lua"))()
-local WorldFX = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Hub/WorldFX.lua"))()
-local Utilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Hub/Utilities.lua"))()
+local AimBot = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/main/Hub/AimBot.lua"))()
+local SalientAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/main/Hub/SalientAim.lua"))()
+local Visuals = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/main/Hub/Visuals.lua "))()
+local WorldFX = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/main/Hub/WorldFX.lua"))()
+local Utilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/main/Hub/Utilities.Lua"))()
 
 Library.ShowToggleFrameInKeybinds = true
 
