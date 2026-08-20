@@ -1,5 +1,5 @@
 -- Загрузка библиотеки
-local Config = loadstring(game:HttpGet("https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/Config.lua"))()
+local Config = loadstring(game:HttpGet("https://raw.githubusercontent.com/artemminssss-source/Awesome-hub-v2/refs/heads/main/config.lua"))()
 local Library = loadstring(game:HttpGet(Config.LibraryURL))()
 local ThemeManager = loadstring(game:HttpGet(Config.ThemeURL))()
 local SaveManager = loadstring(game:HttpGet(Config.SaveURL))()
